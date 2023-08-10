@@ -1,0 +1,52 @@
+.camera-scanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 87vh; /* Adjust to your desired height */
+}
+
+.camera-preview{
+    position: relative;
+    width: 700px; /* Adjust to your desired width */
+    height: 700px; /* Same as width for a circular shape */
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    border-radius: 50%;/*  Make the container circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+button{
+    margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--dark-green);
+  }
+
+  /* Media Queries for Tablet and Mobile */
+@media screen and (max-width: 768px) {
+    .camera-preview {
+      width: 500px;
+      height: 500px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .camera-scanner{
+        height: 80vh;
+    }
+    .camera-preview {
+      width: 300px;
+      height: 300px;
+    }
+  }
