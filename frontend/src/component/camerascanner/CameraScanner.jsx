@@ -37,7 +37,7 @@ const CameraScanner = ({ onScan }) => {
   return (
     <div className='camera-scanner'>
       <video className='camera-preview' ref={videoRef} autoPlay playsInline />
-      <button className='capture-button' onClick={captureImage}>Capture Image</button>
+      <button className='capture-button' onClick={captureImage}>Scan</button>
       <canvas ref={canvasRef} style={{ display: 'none' }} />
     </div>
   );

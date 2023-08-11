@@ -11,7 +11,7 @@ function Mainpage() {
     setScannedImage(imageDataUrl);
   }
   return (
-    <div>
+    <div className='mainpage'>
         <Navbar/>
         <CameraScanner onScan={handleScan}/>
         <FootNavBar/>

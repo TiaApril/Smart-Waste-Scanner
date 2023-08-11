@@ -1,9 +1,10 @@
 .camera-scanner{
     display: flex;
+    flex: 1;
+    padding: 20px; 
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 87vh; /* Adjust to your desired height */
+    justify-content: center;   
 }
 
 .camera-preview{
