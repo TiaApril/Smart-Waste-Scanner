@@ -1,0 +1,41 @@
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    height: 30vh;
+  }
+  
+  .file-upload-dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .file-preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .file-preview img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .file-upload-dropzone {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .file-preview img {
+      max-width: 80px;
+      max-height: 80px;
+      margin: 5px;
+    }
+  }
