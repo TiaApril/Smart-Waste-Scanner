@@ -1,4 +1,4 @@
-﻿# Smart-Watch-Sanner
+﻿# Smart Waste Sanner
 
 ## Our Inspiration 💡  
 ---
