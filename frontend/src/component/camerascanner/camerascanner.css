@@ -1,4 +1,4 @@
-.camera-scanner{
+ .camera-scanner{
     display: flex;
     flex: 1;
     padding: 20px; 
@@ -10,11 +10,11 @@
 
 .camera-preview{
     position: relative;
-    width: 700px; /* Adjust to your desired width */
-    height: 700px; /* Same as width for a circular shape */
+    width: 700px; 
+    height: 700px; 
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-    border-radius: 50%;/*  Make the container circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,4 +51,48 @@ button:hover {
       width: 300px;
       height: 300px;
     }
+  } */
+
+
+
+  /* camerascanner.css */
+
+/* Style the camera scanner container */
+.camera-scanner {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Style the video preview */
+.camera-preview {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Style the capture button */
+.capture-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Adjust the button width for smaller screens */
+@media (max-width: 768px) {
+  .capture-button {
+    width: 100%;
   }
+}

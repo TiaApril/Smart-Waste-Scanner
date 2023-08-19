@@ -1,5 +1,24 @@
-.mainpage{
+/* mainpage.css */
+
+/* Style the mainpage container */
+.mainpage-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
     min-height: 100vh;
-}
+  }
+  
+  /* Style the mainpage content */
+  .mainpage-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  /* Add more styling for specific components like CameraScanner and UploadPicture */
+  

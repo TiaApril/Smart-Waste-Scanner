@@ -1,41 +1,74 @@
-.file-upload-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+/* uploadpicture.css */
 
-    height: 30vh;
-  }
+/* Style the UploadPicture container */
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Add margin to separate it from the scanner */
+}
+
+/* Style the OR heading */
+h2 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Style the file upload dropzone */
+.file-upload-dropzone {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload-dropzone p {
+  margin: 0;
+  color: #333;
+}
+
+/* Style the file input label/button */
+.file-upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.file-upload-button input[type="file"] {
+  display: none;
+}
+
+.file-upload-button:hover {
+  background-color: var(--dark-green);
+}
+
+/* Style the file preview container */
+.file-preview {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.file-preview img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+
+
   
-  .file-upload-dropzone {
-    border: 2px dashed #ccc;
-    padding: 20px;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 20px;
-  }
-  
-  .file-preview {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .file-preview img {
-    max-width: 100px;
-    max-height: 100px;
-    margin: 5px;
-  }
-  
-  @media (max-width: 768px) {
-    .file-upload-dropzone {
-      padding: 10px;
-      font-size: 14px;
-    }
-  
-    .file-preview img {
-      max-width: 80px;
-      max-height: 80px;
-      margin: 5px;
-    }
-  }

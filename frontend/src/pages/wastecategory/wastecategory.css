@@ -1,9 +1,38 @@
-.wastecategory-page{
+/* wastecategory.css */
+
+/* Style the WasteCategory container */
+.wastecategory-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
     min-height: 100vh;
-}
-
-.wastecategory{
-    flex: 1;
-}
+  }
+  
+  /* Style the WasteCategory header */
+  .wastecategory-header {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style the WasteCategory content */
+  .wastecategory-content {
+    /* Add styling for the content container if needed */
+  }
+  
+  /* Style the WasteCategory content items */
+  .wastecategory-content-item {
+    /* Add styling for content items if needed */
+  }
+  
+  /* Add more styling as needed */
+  
