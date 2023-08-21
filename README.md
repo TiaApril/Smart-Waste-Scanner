@@ -1,4 +1,5 @@
 ﻿# Smart Waste Sanner
+Smart Waste Scanner app uses ML, image recognition & data analysis to identify recyclable plastics instantly.
 
 ## Our Inspiration 💡  
 ---
