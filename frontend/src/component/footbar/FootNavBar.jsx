@@ -10,6 +10,7 @@ function FootNavBar() {
       <Link to='/instruction'><a className={`${location.pathname === '/instruction' ? 'active' : ''}`}>Instruction</a></Link>
       <Link to='/'><a className={`${location.pathname === '/' ? 'active' : ''}`}>Scanner</a></Link>
       <Link to='/wastecategory'><a className={`${location.pathname === '/wastecategory' ? 'active' : ''}`}>Waste Category</a></Link>
+      <Link to='/game'><a className={`${location.pathname === '/game' ? 'active' : ''}`}>Game</a></Link>
     </div>
   )
 }
