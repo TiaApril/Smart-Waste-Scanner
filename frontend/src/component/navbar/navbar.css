@@ -22,6 +22,7 @@ float: left;
 .navbar-logo a{
     text-transform: uppercase;
     color: var(--dark-green);
+    text-decoration: none;
 }
 
   /* Media Queries for Tablet and Mobile */

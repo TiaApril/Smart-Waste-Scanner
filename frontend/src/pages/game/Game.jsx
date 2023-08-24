@@ -215,6 +215,7 @@ const Game = () => {
   };
 
   return (
+    <>
     <GameWrapper>
       <Navbar />
       <GameHeader>Recycling Game</GameHeader>
@@ -251,8 +252,9 @@ const Game = () => {
   </div>
 )}
 </MaterialContainer>
-<FootNavBar />
 </GameWrapper>
+<FootNavBar />
+</>
 );
 };
 
