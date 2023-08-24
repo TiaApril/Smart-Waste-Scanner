@@ -36,7 +36,7 @@ def predict():
     img.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
     image_url = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-    predicted_class, confidence_scores = classify_waste_image(image_path)
+    predicted_class, confidence_scores = classify_waste_image(image_url)
 
     class_classification = {
         '1_polyethylene_PET': 'Recyclable',        # PET (Polyethylene Terephthalate)

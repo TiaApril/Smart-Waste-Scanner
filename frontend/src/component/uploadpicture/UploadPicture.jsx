@@ -23,14 +23,15 @@ function UploadPicture() {
     });
 
     try {
-      const response = await fetch('https://59dc-34-90-228-36.ngrok.io/predict', {
+      const response = await fetch('http://9fc4-34-90-228-36.ngrok.io/predict', {
         method: 'POST',
         body: formData,
       });
 
       const result = await response.json();
       if (response.ok) {
-        setUploadMessage('Upload successful');
+        console.log(result)
+        setUploadMessage(result.result);
       } else {
         setUploadMessage('Upload failed');
       }
