@@ -1,38 +1,5 @@
 const mongoose = require('mongoose')
 
-// const Schema = mongoose.Schema
-
-// const course = new Schema(
-//     {
-//     courseName: {
-//         type: String,
-//         required: true
-//     },
-//     category: {
-//         type: String,
-//         required: true
-//     },
-//     skill: {
-//         type: String,
-//         required: true
-//     },
-//     description: {
-//         type: String,
-//         required: true
-//     },
-//     difficulty: {
-//         type: String,
-//         required: true
-//     }
-// }, { versionKey: false }
-
-// )
-
-
-
-
-// module.exports = mongoose.model("course", course)
-
 const course = new mongoose.Schema({
     courseName: {
       type: String,
