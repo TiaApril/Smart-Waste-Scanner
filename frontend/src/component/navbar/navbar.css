@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--light-grey);
+    
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img{
+float: left;
+  margin-left: 28px;
+  font-size: 1.5em;
+  height: 30px;
+  letter-spacing: 1px;
+}
+
+.navbar-logo a{
+    text-transform: uppercase;
+    color: var(--dark-green);
+    text-decoration: none;
+}
+
+  /* Media Queries for Tablet and Mobile */
+  @media screen and (max-width: 768px) {
+   
+    .navbar-logo img {
+        height: 20px;
+        margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .navbar-logo img {
+        height: 20px;
+        margin-left: 0;
+    }
+  }
